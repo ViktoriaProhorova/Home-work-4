@@ -1,7 +1,5 @@
-import java.util.Scanner;
 
 public class Human {
-    int userChoice;
     private Character characterInstance;
     private Appearance appearanceInstance;
     private Body bodyInstance;
@@ -31,15 +29,5 @@ public class Human {
     public Body getBodyInstance() {
         return bodyInstance;
     }
-
-//    public static void enteredIncorrectValue() {
-//        try {
-//            Scanner scanner = new Scanner(System.in);
-//            int userChoice = scanner.nextInt();
-//        } catch (Exception e) {
-//            System.out.println("Only numbers can be entered.");
-//            enteredIncorrectValue();
-//        }
-//    }
 
 }
